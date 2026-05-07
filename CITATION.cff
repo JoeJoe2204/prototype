@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: BIM Prototype 02 Quarto Website
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+authors:
+  - family-names: Söhle
+    given-names: Jonas
+    email: jonas.soehle@gmail.com
+    alias: JoeJoe2204
+license: MIT
+date-released: "2026-01-01"
+abstract: >-
+  A Quarto website prototype that queries the Wikidata Query Service via SPARQL
+  and renders styled HTML profile pages for Wikidata items. Deployed to GitHub
+  Pages via GitHub Actions.
+keywords:
+  - wikidata
+  - quarto
+  - sparql
+  - linked-data
