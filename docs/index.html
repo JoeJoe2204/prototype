@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-7ee132498c61da618cb63d6ce2648d66.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -126,6 +126,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#bim-prototype-02" id="toc-bim-prototype-02" class="nav-link active" data-scroll-target="#bim-prototype-02">BIM Prototype 02</a>
   <ul class="collapse">
   <li><a href="#featured-page" id="toc-featured-page" class="nav-link" data-scroll-target="#featured-page">Featured page</a></li>
+  <li><a href="#data-model-mapping-to-standards" id="toc-data-model-mapping-to-standards" class="nav-link" data-scroll-target="#data-model-mapping-to-standards">Data Model Mapping to Standards</a></li>
   <li><a href="#changelog" id="toc-changelog" class="nav-link" data-scroll-target="#changelog">Changelog</a>
   <ul class="collapse">
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-04-15</a></li>
@@ -165,6 +166,66 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="wikidata-item.html">Wikidata Item Profile: Q138547468</a></li>
 </ul>
+</section>
+<section id="data-model-mapping-to-standards" class="level2">
+<h2 class="anchored" data-anchor-id="data-model-mapping-to-standards">Data Model Mapping to Standards</h2>
+<p>This section maps the Wikidata properties used in the item’s data model (an exhibition, <code>instance of</code> → <code>exhibition</code>, Q464980) to the LIDO XML schema and CIDOC CRM ontology.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wikidata property</th>
+<th>LIDO element</th>
+<th>CIDOC CRM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>instance of (P31)</td>
+<td><code>eventType</code></td>
+<td><code>P2_has_type</code></td>
+</tr>
+<tr class="even">
+<td>title (P1476)</td>
+<td><code>titleSet</code> / <code>appellationValue</code></td>
+<td><code>P102_has_title</code></td>
+</tr>
+<tr class="odd">
+<td>curator (P1640)</td>
+<td><code>eventActor</code></td>
+<td><code>P14_carried_out_by</code></td>
+</tr>
+<tr class="even">
+<td>location (P276)</td>
+<td><code>eventPlace</code></td>
+<td><code>P7_took_place_at</code></td>
+</tr>
+<tr class="odd">
+<td>start time (P580)</td>
+<td><code>eventDate</code> / <code>earliestDate</code></td>
+<td><code>P82a_begin_of_the_begin</code></td>
+</tr>
+<tr class="even">
+<td>end time (P582)</td>
+<td><code>eventDate</code> / <code>latestDate</code></td>
+<td><code>P82b_end_of_the_end</code></td>
+</tr>
+<tr class="odd">
+<td>main subject (P921)</td>
+<td><code>subjectConcept</code></td>
+<td><code>P129_is_about</code></td>
+</tr>
+<tr class="even">
+<td>official website (P856)</td>
+<td><code>resourceID</code> / <code>recordInfoLink</code></td>
+<td><code>P1_is_identified_by</code></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="changelog" class="level2">
 <h2 class="anchored" data-anchor-id="changelog">Changelog</h2>
