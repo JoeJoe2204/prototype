@@ -6,8 +6,12 @@ project:
     - project-log.qmd
     - wikidata.qmd
     - wikidata-item.ipynb
-
+    
+author:
+  name: "Jonas Söhle"
+  orcid: "0009-0004-6238-895X"
 website:
+
   title: "BIM Prototype 02"
   navbar:
     left:
