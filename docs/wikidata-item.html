@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-7ee132498c61da618cb63d6ce2648d66.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -149,8 +149,8 @@ ul.task-list li input[type="checkbox"] {
 <p>This notebook-backed page queries Wikidata with SPARQL and renders a styled HTML profile.</p>
 <p>To profile another item, change the <code>item_id</code> value in Cell 3 and re-render the site.</p>
 <p>https://www.sprengel-museum.de/ausstellungen/aktuell/abenteuer-abstraktion</p>
-<div id="2c369ca0" class="cell" data-execution_count="6">
-<section id="sparql-query-used-for-q138572982" class="level2 cell-output cell-output-display cell-output-markdown" data-execution_count="6">
+<div id="2c369ca0" class="cell" data-execution_count="2">
+<section id="sparql-query-used-for-q138572982" class="level2 cell-output cell-output-display cell-output-markdown" data-execution_count="2">
 <h2 class="anchored" data-anchor-id="sparql-query-used-for-q138572982">SPARQL Query Used for Q138572982</h2>
 <pre class="sparql"><code>SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {
   BIND(wd:Q138572982 AS ?item)
@@ -164,13 +164,13 @@ ul.task-list li input[type="checkbox"] {
 ORDER BY ?propertyLabel</code></pre>
 </section>
 </div>
-<div id="eaae8030" class="cell" data-execution_count="7">
-<div class="cell-output cell-output-display" data-execution_count="7">
+<div id="eaae8030" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display" data-execution_count="3">
 <pre><code>17</code></pre>
 </div>
 </div>
-<div id="f0195f22" class="cell" data-execution_count="8">
-<div class="cell-output cell-output-display" data-execution_count="8">
+<div id="f0195f22" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="4">
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap');
@@ -426,7 +426,7 @@ ORDER BY ?propertyLabel</code></pre>
     <div class="wd-header-meta">
       <span>Object ID&nbsp;<strong>Q138572982</strong></span>
       <span>Statements&nbsp;<strong>17</strong></span>
-      <span>Retrieved&nbsp;<strong>2026-05-07 06:18 UTC</strong></span>
+      <span>Retrieved&nbsp;<strong>2026-05-07 11:26 UTC</strong></span>
       <span><a href="https://www.wikidata.org/wiki/Q138572982" target="_blank" rel="noopener">View source record ↗</a></span>
     </div>
   </header>
@@ -523,15 +523,6 @@ ORDER BY ?propertyLabel</code></pre>
 <section id="visualizing-the-wikidata-item-as-a-graph" class="level2">
 <h2 class="anchored" data-anchor-id="visualizing-the-wikidata-item-as-a-graph">Visualizing the Wikidata Item as a Graph</h2>
 <p>The following cell renders a graph visualization of the relationships for the selected Wikidata item. This helps to see how the item is connected to other entities via its properties.</p>
-<div id="01c8542d" class="cell" data-execution_count="9">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="wikidata-item_files/figure-html/cell-6-output-1.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
 
 
 </section>
