@@ -10,6 +10,21 @@ This is the Quarto website source for the BIM prototype project.
 
 - [Wikidata Item Profile: Q138547468](wikidata-item.html)
 
+## Data Model Mapping to Standards
+
+This section maps the Wikidata properties used in the item's data model (an exhibition, `instance of` → `exhibition`, Q464980) to the LIDO XML schema and CIDOC CRM ontology.
+
+| Wikidata property | LIDO element | CIDOC CRM |
+|---|---|---|
+| instance of (P31) | `eventType` | `P2_has_type` |
+| title (P1476) | `titleSet` / `appellationValue` | `P102_has_title` |
+| curator (P1640) | `eventActor` | `P14_carried_out_by` |
+| location (P276) | `eventPlace` | `P7_took_place_at` |
+| start time (P580) | `eventDate` / `earliestDate` | `P82a_begin_of_the_begin` |
+| end time (P582) | `eventDate` / `latestDate` | `P82b_end_of_the_end` |
+| main subject (P921) | `subjectConcept` | `P129_is_about` |
+| official website (P856) | `resourceID` / `recordInfoLink` | `P1_is_identified_by` |
+
 ## Changelog
 
 ### 2026-04-15
