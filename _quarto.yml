@@ -7,6 +7,7 @@ project:
     - wikidata.qmd
     - ausstellung.qmd
     - wikidata-item.ipynb
+    - Team3.qmd
     
 author:
   name: "Jonas Söhle"
@@ -26,6 +27,9 @@ website:
         text: Ausstellung
       - href: wikidata-item.ipynb
         text: Item Profile
+      - href: Team3.qmd
+        text: Teamaufgabe
+      
 
 format:
   html:
