@@ -1,0 +1,28 @@
+---
+title: "Ausstellung"
+---
+
+# Ausstellung: Q138572982
+
+Diese Seite beschreibt die Ausstellung, die im Projekt mit der Wikidata-Identifikator-Nummer Q138572982 verknüpft ist.
+
+## Kurzbeschreibung
+
+Die Ausstellung wird in diesem Quarto-Projekt als Beispiel für die Modellierung kulturhistorischer Ereignisse in Linked Data verwendet. Ziel ist es, relevante Informationen wie Titel, Ort, Zeitspanne, Kurator:innen und Themen strukturiert darzustellen.
+
+## Wikidata-Bezug
+
+- Wikidata-QID: Q138572982
+- Kontext: Ausstellung als Ereignis im Linked-Data-Umfeld
+- Ziel: Verbindung von strukturierten Metadaten mit einer publizierten Quarto-Seite
+
+## Verknüpfte Inhalte
+
+- [Wikidata-Übersicht](wikidata.html)
+- [Wikidata-Item-Profil](wikidata-item.html)
+
+## Nächste Schritte
+
+- Die Seite mit weiteren Ausstellungsdaten aus Wikidata anreichern
+- Kurator:innen, Ort und Zeitangaben sichtbar machen
+- Bei Bedarf eine eigene Detailansicht für einzelne Ausstellungen ergänzen

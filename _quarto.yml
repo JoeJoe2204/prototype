@@ -5,6 +5,7 @@ project:
     - index.qmd
     - project-log.qmd
     - wikidata.qmd
+    - ausstellung.qmd
     - wikidata-item.ipynb
     
 author:
@@ -21,6 +22,8 @@ website:
         text: Project Log
       - href: wikidata.qmd
         text: Wikidata
+      - href: ausstellung.qmd
+        text: Ausstellung
       - href: wikidata-item.ipynb
         text: Item Profile
 
