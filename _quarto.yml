@@ -3,7 +3,7 @@ project:
   output-dir: docs
   render:
     - index.qmd
-    - Artist Data.qmd
+    - Artist Data Model.qmd
     - project-log.qmd
     - wikidata.qmd
     - ausstellung.qmd
