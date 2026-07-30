@@ -3,12 +3,13 @@ project:
   output-dir: docs
   render:
     - index.qmd
+    - Artist Data.qmd
     - project-log.qmd
     - wikidata.qmd
     - ausstellung.qmd
+    - Exhibition Data Model.qmd
     - wikidata-item.ipynb
-   
-    
+
 author:
   name: "Jonas Söhle"
   orcid: "0009-0004-6238-895X"
@@ -21,14 +22,16 @@ website:
         text: Home
       - href: project-log.qmd
         text: Project Log
+      - href: Artist Data.qmd
+        text: Artist Data
       - href: wikidata.qmd
         text: Wikidata
       - href: ausstellung.qmd
         text: Ausstellung
+      - href: Exhibition Data Model.qmd
+        text: Exhibition Data Model
       - href: wikidata-item.ipynb
         text: Item Profile
-     
-      
 
 format:
   html:
