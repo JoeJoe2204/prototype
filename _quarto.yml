@@ -22,7 +22,7 @@ website:
         text: Home
       - href: project-log.qmd
         text: Project Log
-      - href: Artist Data.qmd
+      - href: Artist Data Model.qmd
         text: Artist Data
       - href: wikidata.qmd
         text: Wikidata
